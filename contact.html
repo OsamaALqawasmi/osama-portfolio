@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Me - Osama Qawasmi</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Contact Me</h1>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+
+    <section class="contact-section">
+
+        <h2>Get in Touch</h2>
+
+        <p>
+            Feel free to contact me using the form below.
+        </p>
+
+        <form id="contactForm">
+
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="">Select Your Country</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="UAE">United Arab Emirates</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="5"></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

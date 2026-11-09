@@ -1,0 +1,284 @@
+/* General page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fbff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    background-color: #2563eb;
+    color: white;
+    padding: 35px;
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Student name */
+h2 {
+    color: #2563eb;
+    font-size: 28px;
+    margin-top: 45px;
+}
+
+/* Student information */
+p {
+    font-size: 18px;
+    margin: 15px;
+    line-height: 1.8;
+}
+/* About Me Section */
+
+.about {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+.about h2 {
+    color: #2563eb;
+    margin-bottom: 25px;
+}
+
+.about p {
+    max-width: 750px;
+    margin: 15px auto;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* Soft Skills Section */
+
+.skills {
+    background-color: #f1f5f9;
+    padding: 50px 20px;
+}
+
+.skills h2 {
+    color: #2563eb;
+    margin-bottom: 35px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: white;
+    width: 200px;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.skill-card h3 {
+    color: #2563eb;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+}
+/* Programming Languages and Tools Section */
+
+.tools {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.tools h2 {
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+.tools p {
+    font-size: 17px;
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.table-container {
+    max-width: 1000px;
+    margin: auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+tr:hover {
+    background-color: #dbeafe;
+}
+
+td a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+/* Future Goals Section */
+
+.future {
+    background-color: #f1f5f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.future h2 {
+    color: #2563eb;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.future-box {
+    background-color: white;
+    max-width: 850px;
+    margin: auto;
+    padding: 35px;
+    border-radius: 10px;
+    border-left: 5px solid #2563eb;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.future-box p {
+    font-size: 17px;
+    line-height: 2;
+    color: #475569;
+    text-align: left;
+}
+
+/* Profile Photo Section */
+
+.profile-section {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #2563eb;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.profile-section p {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.profile-section a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.profile-section a:hover {
+    text-decoration: underline;
+}
+/* Navigation Bar */
+
+.navbar {
+    background-color: #1e40af;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Page */
+
+.contact-section {
+    padding: 40px 20px;
+}
+
+.contact-section h2 {
+    color: #2563eb;
+}
+
+#contactForm {
+    background-color: white;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+#contactForm label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#contactForm input,
+#contactForm select,
+#contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#contactForm button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #1e40af;
+}
